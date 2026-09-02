@@ -7,7 +7,7 @@ public class EstadisticasEstructurado {
     public static double promedio(double[] numeros) {
         double suma = 0;
 
-        for (int i = 0; i < numeros.length; i+) {
+        for (int i = 0; i < numeros.length; i++) {
             suma += numeros[i];
         }
 
@@ -40,6 +40,5 @@ public class EstadisticasEstructurado {
         System.out.println("El promedio es " + promedio(numeros));
         System.out.println("La desviación  es " + desviacion(numeros));
 
-        teclado.close();
     }
 }
